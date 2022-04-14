@@ -1067,15 +1067,27 @@ h4 {
     }
 }
 
+#bloc-4-portfolio a img {
+    width: 100%;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    img {
+        width: 100%;
     }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    img {
+        width: 100%;
     }
 }
