@@ -702,8 +702,14 @@ p {
 }
 
 .social {
+    display: flex;
     max-width: 400px;
     margin: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+.keywords {
+    display: none;
 }
 
 h2 {
