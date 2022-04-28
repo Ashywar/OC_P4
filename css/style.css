@@ -1066,6 +1066,11 @@ h4 {
     width: 100%;
 }
 
+.texture-paper::before {
+    background: url("/img/texture-paper.webp");
+    background-size: 280px 280px;
+}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
